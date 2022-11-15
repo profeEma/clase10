@@ -80,12 +80,5 @@ h1, h2, h3, p, a{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grand
         grid-template-columns: 50% 50%;
         grid-template-rows: repeat(3, auto);
     }
-    .tituloContacto{grid-area:tituloContacto;}
-    form{grid-area:form;}
-    .tituloMapa{grid-area: tituloMapa;}
-    .mapa{grid-area:mapa;}
-    .mapa iframe{height: 600px;}
-    .flex-column{display:flex;flex-direction: column;align-items: stretch;}
-    .p-50{padding:50px;}
-    .servicios-g-main{display:grid;grid-template-areas: "titulo titulo" "imgIzq textoDer" "textoIzq imgDer";grid-template-columns: repeat(2,50%);grid-template-rows: repeat(3,auto);grid-row-gap: 50px;}
+        .servicios-g-main{display:grid;grid-template-areas: "titulo titulo" "imgIzq textoDer" "textoIzq imgDer";grid-template-columns: repeat(2,50%);grid-template-rows: repeat(3,auto);grid-row-gap: 50px;}
 }
