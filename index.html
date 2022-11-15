@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/estilo.css">
     <title>Clase 7</title>
@@ -40,18 +42,18 @@
         </header>
         <main class="m-grid">
             <!-- IMG -->
-            <img class="img-fluid imgEncabezado" src="img/header_somos.jpg" alt="encabezado nba">
+            <img data-aos="fade-up" class="img-fluid imgEncabezado" src="img/header_somos.jpg" alt="encabezado nba">
             <!-- ENCABEZADO -->
-            <div class="titulo">
+            <div data-aos="fade-up" class="titulo">
                 <h2>Welcome to...</h2>
             </div>
             <!-- TEXTO -->
-            <div class="textoTitulo mb-20">
+            <div data-aos="fade-up" class="textoTitulo mb-20">
                 <p>Este es un texto genérico... Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat ipsum repellendus, repudiandae, magnam quis nulla exercitationem cupiditate nisi quos odit. Error reprehenderit itaque sunt quis rerum recusandae, commodi illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magni maiores magnam, error dignissimos labore deleniti suscipit, consectetur aperiam ratione neque molestiae dolore, nostrum reiciendis asperiores architecto eligendi voluptatum rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, consequuntur! Sint modi asperiores provident ab unde rerum commodi sequi eius esse recusandae, a debitis dolorem corporis quod repellendus amet similique!</p>
             </div>
             <!-- IMG -->
-            <img class="img-fluid imgTexto" src="img/img_kyrie.jpg" alt="encabezado luka">
-            <div class="textoImagen">
+            <img data-aos="fade-up" class="img-fluid imgTexto" src="img/img_kyrie.jpg" alt="encabezado luka">
+            <div data-aos="fade-up" class="textoImagen">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa odit maxime deleniti rerum, cupiditate quidem laudantium sunt, non eum cumque totam. Illum tempore eum eveniet rem adipisci ab in accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, laborum repellat rerum temporibus asperiores enim, sed harum ea aspernatur exercitationem quas sequi consequuntur eligendi quam nisi non ipsa. Dolorum, ea! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit fugiat asperiores sed optio et dolorum voluptate quod tempora, doloribus omnis! Error quis neque id suscipit at aliquid voluptate nostrum molestiae!</p>
             </div>
         </main>
@@ -68,5 +70,10 @@
             </div>
         </footer>
     </div>
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
